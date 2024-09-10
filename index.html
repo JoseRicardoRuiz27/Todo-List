@@ -3,15 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
     <title>Todo List</title>
 </head>
 <body>
-    <h1>Todo List</h1>
-    <input type="text" name="nuevaTarea" id="nuevaTarea">
-    <button type="button" onclick="agregarTarea()">Agregar</button>
-    <ul id="listaTareas">
+    <header>
         
-    </ul>
+        <h1><img src="logo.png" alt="Logo">Todo List</h1>
+        <input type="text" placeholder="Buscar">
+    </header>
+    <main>
+        <p>Lista de tareas</p>
+        <input type="text" name="nuevaTarea" id="nuevaTarea" placeholder="Agregar nueva tarea">
+        <button type="button" onclick="agregarTarea()">Agregar</button>
+        <ul id="listaTareas">
+        </ul>  
+    </main>
+        
 </body>
 </html>
